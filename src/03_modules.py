@@ -23,6 +23,7 @@ print(sys.platform)
 
 import os
 #import getpass
+
 # See the docs for the OS module: https://docs.python.org/3.7/library/os.html
 
 # Print the current process ID
@@ -34,5 +35,6 @@ print(os.getpid())
 print(os.getcwd())
 # Print out your machine's login name
 # YOUR CODE HERE
+
 #print(getpass.getuser())
 print(os.environ['USER'])

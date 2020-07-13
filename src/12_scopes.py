@@ -6,6 +6,7 @@ x = 12
 
 def change_x():
     x = 99
+    print(x)
 
 change_x()
 
@@ -17,9 +18,11 @@ print(x)
 
 def outer():
     y = 120
+    print(y)
 
     def inner():
         y = 999
+        print(y)
 
     inner()
 
@@ -27,6 +30,6 @@ def outer():
     # 999?
     # Note: Google "python nested function scope".
     print(y)
-
+    inner()
 
 outer()

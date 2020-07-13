@@ -2,4 +2,6 @@
 # (try doing the same thing in the JS console and see what it outputs)
 
 # YOUR CODE HERE
-print(2**4)
+print(2**65536)
+
+#  JS >> console.log(math.pow(2, 65536))
